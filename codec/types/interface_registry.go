@@ -148,15 +148,13 @@ func (registry *interfaceRegistry) registerImpl(iface interface{}, typeURL strin
 	// we panic).
 	foundImplType, found := imap[typeURL]
 	if found && foundImplType != implType {
-		panic(
-			fmt.Errorf(
-				"concrete type %s has already been registered under typeURL %s, cannot register %s under same typeURL. "+
-					"This usually means that there are conflicting modules registering different concrete types "+
-					"for a same interface implementation",
-				foundImplType,
-				typeURL,
-				implType,
-			),
+		fmt.Sprintf(
+			"concrete type %s has already been registered under typeURL %s, cannot register %s under same typeURL. "+
+				"This usually means that there are conflicting modules registering different concrete types "+
+				"for a same interface implementation",
+			foundImplType,
+			typeURL,
+			implType,
 		)
 	}
 
