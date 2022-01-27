@@ -160,7 +160,7 @@ var (
 func Register(codespace string, code uint32, description string) *Error {
 	// TODO - uniqueness is (codespace, code) combo
 	if e := getUsed(codespace, code); e != nil {
-		panic(fmt.Sprintf("error with code %d is already registered: %q", code, e.desc))
+		fmt.Sprintf("error with code %d is already registered: %q", code, e.desc)
 	}
 
 	err := New(codespace, code, description)
