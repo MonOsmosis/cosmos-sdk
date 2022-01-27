@@ -220,7 +220,7 @@ var validProposalTypes = map[string]struct{}{
 // already registered.
 func RegisterProposalType(ty string) {
 	if _, ok := validProposalTypes[ty]; ok {
-		panic(fmt.Sprintf("already registered proposal type: %s", ty))
+		fmt.Sprintf("already registered proposal type: %s", ty)
 	}
 
 	validProposalTypes[ty] = struct{}{}
