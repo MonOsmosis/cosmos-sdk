@@ -6,10 +6,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/MonOsmosis/cosmos-sdk/telemetry"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/evidence/keeper"
+	"github.com/MonOsmosis/cosmos-sdk/x/evidence/types"
 )
 
 // BeginBlocker iterates through and handles any newly discovered evidence of

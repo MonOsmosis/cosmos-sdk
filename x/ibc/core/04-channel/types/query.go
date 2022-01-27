@@ -1,9 +1,9 @@
 package types
 
 import (
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	codectypes "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
 )
 
 var (

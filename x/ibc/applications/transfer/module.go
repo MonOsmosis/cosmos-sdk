@@ -14,21 +14,21 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/keeper"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/simulation"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	porttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/05-port/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	codectypes "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/types/module"
+	simtypes "github.com/MonOsmosis/cosmos-sdk/types/simulation"
+	capabilitytypes "github.com/MonOsmosis/cosmos-sdk/x/capability/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/applications/transfer/client/cli"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/applications/transfer/keeper"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/applications/transfer/simulation"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/applications/transfer/types"
+	channeltypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/04-channel/types"
+	porttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/05-port/types"
+	host "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/24-host"
 )
 
 var (
@@ -197,7 +197,7 @@ func ValidateTransferChannelParams(
 	version string,
 ) error {
 	// NOTE: for escrow address security only 2^32 channels are allowed to be created
-	// Issue: https://github.com/cosmos/cosmos-sdk/issues/7737
+	// Issue: https://github.com/MonOsmosis/cosmos-sdk/issues/7737
 	channelSequence, err := channeltypes.ParseChannelSequence(channelID)
 	if err != nil {
 		return err

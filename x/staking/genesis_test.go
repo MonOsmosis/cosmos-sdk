@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	codectypes "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/MonOsmosis/cosmos-sdk/simapp"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	banktypes "github.com/MonOsmosis/cosmos-sdk/x/bank/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/teststaking"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/types"
 )
 
 func bootstrapGenesisTest(t *testing.T, power int64, numAddrs int) (*simapp.SimApp, sdk.Context, []sdk.AccAddress) {

@@ -3,14 +3,14 @@ package keeper
 import (
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/03-connection/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/03-connection/types"
+	commitmenttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/24-host"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
 )
 
 // Keeper defines the IBC connection keeper

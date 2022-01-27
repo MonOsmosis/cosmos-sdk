@@ -13,18 +13,18 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	cryptocodec "github.com/MonOsmosis/cosmos-sdk/crypto/codec"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/MonOsmosis/cosmos-sdk/crypto/types"
+	"github.com/MonOsmosis/cosmos-sdk/simapp"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/testdata"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	banktypes "github.com/MonOsmosis/cosmos-sdk/x/bank/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/keeper"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/teststaking"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/types"
 )
 
 func bootstrapHandlerGenesisTest(t *testing.T, power int64, numAddrs int, accAmount sdk.Int) (*simapp.SimApp, sdk.Context, []sdk.AccAddress, []sdk.ValAddress) {

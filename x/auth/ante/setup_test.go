@@ -1,11 +1,11 @@
 package ante_test
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
+	cryptotypes "github.com/MonOsmosis/cosmos-sdk/crypto/types"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/testdata"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/x/auth/ante"
 )
 
 func (suite *AnteTestSuite) TestSetup() {

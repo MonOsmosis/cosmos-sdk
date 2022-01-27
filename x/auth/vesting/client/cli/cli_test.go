@@ -1,3 +1,4 @@
+//go:build norace
 // +build norace
 
 package cli_test
@@ -9,11 +10,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/client/cli"
+	"github.com/MonOsmosis/cosmos-sdk/client/flags"
+	clitestutil "github.com/MonOsmosis/cosmos-sdk/testutil/cli"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/network"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/auth/vesting/client/cli"
 )
 
 type IntegrationTestSuite struct {

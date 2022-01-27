@@ -8,9 +8,9 @@ import (
 	"github.com/gogo/protobuf/proto"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/codec/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
 )
 
 // DefaultStartingProposalID is 1

@@ -1,3 +1,4 @@
+//go:build ledger && test_ledger_mock
 // +build ledger,test_ledger_mock
 
 package ledger
@@ -13,10 +14,10 @@ import (
 
 	"github.com/cosmos/go-bip39"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	csecp256k1 "github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/hd"
+	csecp256k1 "github.com/MonOsmosis/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/MonOsmosis/cosmos-sdk/testutil"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 )
 
 // If ledger support (build tag) has been enabled, which implies a CGO dependency,

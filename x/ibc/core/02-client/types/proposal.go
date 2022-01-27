@@ -1,10 +1,10 @@
 package types
 
 import (
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	codectypes "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	govtypes "github.com/MonOsmosis/cosmos-sdk/x/gov/types"
+	host "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/24-host"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
 )
 
 const (

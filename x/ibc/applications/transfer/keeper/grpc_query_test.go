@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/types/query"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/applications/transfer/types"
 )
 
 func (suite *KeeperTestSuite) TestQueryDenomTrace() {

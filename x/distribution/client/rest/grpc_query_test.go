@@ -7,13 +7,13 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/MonOsmosis/cosmos-sdk/testutil"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/network"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	grpctypes "github.com/MonOsmosis/cosmos-sdk/types/grpc"
+	"github.com/MonOsmosis/cosmos-sdk/types/query"
+	"github.com/MonOsmosis/cosmos-sdk/types/rest"
+	"github.com/MonOsmosis/cosmos-sdk/x/distribution/types"
 )
 
 type IntegrationTestSuite struct {

@@ -1,11 +1,11 @@
 package ante_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/MonOsmosis/cosmos-sdk/codec/types"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/testdata"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/auth/ante"
+	"github.com/MonOsmosis/cosmos-sdk/x/auth/tx"
 )
 
 func (suite *AnteTestSuite) TestRejectExtensionOptionsDecorator() {

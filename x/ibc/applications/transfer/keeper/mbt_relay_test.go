@@ -13,13 +13,13 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/ibc/applications/transfer/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/applications/transfer/types"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	channeltypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/04-channel/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
+	ibctesting "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing"
 )
 
 type TlaBalance struct {

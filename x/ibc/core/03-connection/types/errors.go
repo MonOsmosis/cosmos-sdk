@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
 )
 
 // IBC connection sentinel errors

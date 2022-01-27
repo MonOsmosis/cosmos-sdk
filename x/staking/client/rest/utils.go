@@ -6,11 +6,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/types/rest"
+	authclient "github.com/MonOsmosis/cosmos-sdk/x/auth/client"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/types"
 )
 
 // contains checks if the a given query contains one of the tx types

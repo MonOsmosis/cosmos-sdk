@@ -1,9 +1,9 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankexported "github.com/cosmos/cosmos-sdk/x/bank/exported"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	authtypes "github.com/MonOsmosis/cosmos-sdk/x/auth/types"
+	bankexported "github.com/MonOsmosis/cosmos-sdk/x/bank/exported"
 )
 
 // DistributionKeeper expected distribution keeper (noalias)
@@ -20,7 +20,7 @@ type AccountKeeper interface {
 	GetModuleAddress(name string) sdk.AccAddress
 	GetModuleAccount(ctx sdk.Context, moduleName string) authtypes.ModuleAccountI
 
-	// TODO remove with genesis 2-phases refactor https://github.com/cosmos/cosmos-sdk/issues/2862
+	// TODO remove with genesis 2-phases refactor https://github.com/MonOsmosis/cosmos-sdk/issues/2862
 	SetModuleAccount(sdk.Context, authtypes.ModuleAccountI)
 }
 

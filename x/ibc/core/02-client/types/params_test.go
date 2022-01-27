@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
 )
 
 func TestValidateParams(t *testing.T) {

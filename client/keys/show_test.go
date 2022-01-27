@@ -8,16 +8,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	"github.com/MonOsmosis/cosmos-sdk/client/flags"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/hd"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keyring"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/multisig"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/MonOsmosis/cosmos-sdk/crypto/types"
+	"github.com/MonOsmosis/cosmos-sdk/testutil"
+	clitestutil "github.com/MonOsmosis/cosmos-sdk/testutil/cli"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 )
 

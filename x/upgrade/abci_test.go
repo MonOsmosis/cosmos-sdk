@@ -15,17 +15,17 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/MonOsmosis/cosmos-sdk/simapp"
+	storetypes "github.com/MonOsmosis/cosmos-sdk/store/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/types/module"
+	govtypes "github.com/MonOsmosis/cosmos-sdk/x/gov/types"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	ibctmtypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/upgrade"
+	"github.com/MonOsmosis/cosmos-sdk/x/upgrade/keeper"
+	"github.com/MonOsmosis/cosmos-sdk/x/upgrade/types"
 )
 
 type TestSuite struct {

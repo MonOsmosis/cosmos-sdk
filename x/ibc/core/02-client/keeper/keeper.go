@@ -8,17 +8,17 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	"github.com/tendermint/tendermint/light"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	host "github.com/cosmos/cosmos-sdk/x/ibc/core/24-host"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	"github.com/MonOsmosis/cosmos-sdk/store/prefix"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/24-host"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	paramtypes "github.com/MonOsmosis/cosmos-sdk/x/params/types"
+	upgradetypes "github.com/MonOsmosis/cosmos-sdk/x/upgrade/types"
 )
 
 // Keeper represents a type that grants read and write permissions to any client

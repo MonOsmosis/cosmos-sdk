@@ -7,7 +7,7 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 )
 
 // Paramspace defines the parameter subspace to be used for the paramstore.

@@ -1,11 +1,11 @@
 package types_test
 
 import (
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	connectiontypes "github.com/cosmos/cosmos-sdk/x/ibc/core/03-connection/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	connectiontypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/03-connection/types"
+	channeltypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/04-channel/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/06-solomachine/types"
+	ibctesting "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing"
 )
 
 func (suite SoloMachineTestSuite) TestUnmarshalDataByType() {

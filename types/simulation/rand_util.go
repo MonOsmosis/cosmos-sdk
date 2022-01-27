@@ -7,7 +7,7 @@ import (
 	"time"
 	"unsafe"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 )
 
 const (

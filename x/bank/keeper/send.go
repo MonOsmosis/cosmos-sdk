@@ -1,13 +1,13 @@
 package keeper
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	"github.com/MonOsmosis/cosmos-sdk/store/prefix"
+	"github.com/MonOsmosis/cosmos-sdk/telemetry"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/x/bank/types"
+	paramtypes "github.com/MonOsmosis/cosmos-sdk/x/params/types"
 )
 
 // SendKeeper defines a module interface that facilitates the transfer of coins

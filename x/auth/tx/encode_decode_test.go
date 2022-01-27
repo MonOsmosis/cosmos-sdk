@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"testing"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
 
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/MonOsmosis/cosmos-sdk/types/tx"
+	signingtypes "github.com/MonOsmosis/cosmos-sdk/types/tx/signing"
+	"github.com/MonOsmosis/cosmos-sdk/x/auth/signing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	codectypes "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/testdata"
 )
 
 func TestDefaultTxDecoderError(t *testing.T) {

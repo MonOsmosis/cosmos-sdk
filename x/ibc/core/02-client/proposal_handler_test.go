@@ -1,14 +1,14 @@
 package client_test
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	client "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	distributiontypes "github.com/MonOsmosis/cosmos-sdk/x/distribution/types"
+	govtypes "github.com/MonOsmosis/cosmos-sdk/x/gov/types"
+	client "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing"
 )
 
 func (suite *ClientTestSuite) TestNewClientUpdateProposalHandler() {

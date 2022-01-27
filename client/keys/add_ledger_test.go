@@ -1,4 +1,5 @@
-//+build ledger test_ledger_mock
+//go:build ledger || test_ledger_mock
+// +build ledger test_ledger_mock
 
 package keys
 
@@ -11,12 +12,12 @@ import (
 
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	"github.com/MonOsmosis/cosmos-sdk/client/flags"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/hd"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keyring"
+	"github.com/MonOsmosis/cosmos-sdk/testutil"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 )
 
 func Test_runAddCmdLedgerWithCustomCoinType(t *testing.T) {

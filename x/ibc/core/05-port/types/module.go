@@ -1,10 +1,10 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
-	channeltypes "github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
+	capabilitytypes "github.com/MonOsmosis/cosmos-sdk/x/capability/types"
+	channeltypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/04-channel/types"
 )
 
 // IBCModule defines an interface that implements all the callbacks

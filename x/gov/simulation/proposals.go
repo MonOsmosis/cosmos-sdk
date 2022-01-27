@@ -3,11 +3,11 @@ package simulation
 import (
 	"math/rand"
 
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	simappparams "github.com/MonOsmosis/cosmos-sdk/simapp/params"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	simtypes "github.com/MonOsmosis/cosmos-sdk/types/simulation"
+	"github.com/MonOsmosis/cosmos-sdk/x/gov/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/simulation"
 )
 
 // OpWeightSubmitTextProposal app params key for text proposal

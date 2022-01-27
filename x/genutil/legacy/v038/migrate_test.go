@@ -3,12 +3,12 @@ package v038_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	v036auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v036"
-	v036genaccounts "github.com/cosmos/cosmos-sdk/x/genaccounts/legacy/v036"
-	v038 "github.com/cosmos/cosmos-sdk/x/genutil/legacy/v038"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	v036staking "github.com/cosmos/cosmos-sdk/x/staking/legacy/v036"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	v036auth "github.com/MonOsmosis/cosmos-sdk/x/auth/legacy/v036"
+	v036genaccounts "github.com/MonOsmosis/cosmos-sdk/x/genaccounts/legacy/v036"
+	v038 "github.com/MonOsmosis/cosmos-sdk/x/genutil/legacy/v038"
+	"github.com/MonOsmosis/cosmos-sdk/x/genutil/types"
+	v036staking "github.com/MonOsmosis/cosmos-sdk/x/staking/legacy/v036"
 
 	"github.com/stretchr/testify/require"
 )

@@ -6,11 +6,11 @@ package mocks
 
 import (
 	json "encoding/json"
-	client "github.com/cosmos/cosmos-sdk/client"
-	codec "github.com/cosmos/cosmos-sdk/codec"
-	types "github.com/cosmos/cosmos-sdk/codec/types"
-	types0 "github.com/cosmos/cosmos-sdk/types"
-	module "github.com/cosmos/cosmos-sdk/types/module"
+	client "github.com/MonOsmosis/cosmos-sdk/client"
+	codec "github.com/MonOsmosis/cosmos-sdk/codec"
+	types "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	types0 "github.com/MonOsmosis/cosmos-sdk/types"
+	module "github.com/MonOsmosis/cosmos-sdk/types/module"
 	gomock "github.com/golang/mock/gomock"
 	mux "github.com/gorilla/mux"
 	runtime "github.com/grpc-ecosystem/grpc-gateway/runtime"

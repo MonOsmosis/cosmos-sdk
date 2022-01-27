@@ -9,14 +9,14 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	grpc "google.golang.org/grpc"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	"github.com/MonOsmosis/cosmos-sdk/client/flags"
+	"github.com/MonOsmosis/cosmos-sdk/client/tx"
+	"github.com/MonOsmosis/cosmos-sdk/testutil"
+	clitestutil "github.com/MonOsmosis/cosmos-sdk/testutil/cli"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	bankcli "github.com/MonOsmosis/cosmos-sdk/x/bank/client/cli"
+	"github.com/MonOsmosis/cosmos-sdk/x/bank/types"
 )
 
 func MsgSendExec(clientCtx client.Context, from, to, amount fmt.Stringer, extraArgs ...string) (testutil.BufferWriter, error) {
@@ -35,7 +35,7 @@ func QueryBalancesExec(clientCtx client.Context, address fmt.Stringer, extraArgs
 
 // serviceMsgClientConn is an instance of grpc.ClientConn that is used to test building
 // transactions with MsgClient's. It is intended to be replaced by the work in
-// https://github.com/cosmos/cosmos-sdk/issues/7541 when that is ready.
+// https://github.com/MonOsmosis/cosmos-sdk/issues/7541 when that is ready.
 type serviceMsgClientConn struct {
 	msgs []sdk.Msg
 }
@@ -107,7 +107,7 @@ ignored as it is implied from [from_key_or_address].`,
 }
 
 // ServiceMsgSendExec is a temporary method to test Msg services in CLI using
-// x/bank's Msg/Send service. After https://github.com/cosmos/cosmos-sdk/issues/7541
+// x/bank's Msg/Send service. After https://github.com/MonOsmosis/cosmos-sdk/issues/7541
 // is merged, this method should be removed, and we should prefer MsgSendExec
 // instead.
 func ServiceMsgSendExec(clientCtx client.Context, from, to, amount fmt.Stringer, extraArgs ...string) (testutil.BufferWriter, error) {

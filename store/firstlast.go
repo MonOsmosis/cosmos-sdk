@@ -3,8 +3,8 @@ package store
 import (
 	"bytes"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkkv "github.com/cosmos/cosmos-sdk/types/kv"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkkv "github.com/MonOsmosis/cosmos-sdk/types/kv"
 )
 
 // Gets the first item.

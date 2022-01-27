@@ -5,11 +5,11 @@ import (
 
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	types "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
-	ibctestingmock "github.com/cosmos/cosmos-sdk/x/ibc/testing/mock"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/23-commitment/types"
+	types "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing"
+	ibctestingmock "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing/mock"
 )
 
 func (suite *TendermintTestSuite) TestCheckHeaderAndUpdateState() {

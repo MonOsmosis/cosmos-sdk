@@ -1,9 +1,9 @@
 package channel
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/keeper"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/04-channel/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/04-channel/keeper"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/04-channel/types"
 )
 
 // InitGenesis initializes the ibc channel submodule's state from a provided genesis

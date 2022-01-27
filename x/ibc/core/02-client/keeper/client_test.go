@@ -7,15 +7,15 @@ import (
 
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	clienttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	commitmenttypes "github.com/cosmos/cosmos-sdk/x/ibc/core/23-commitment/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/exported"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	localhosttypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/09-localhost/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
-	ibctestingmock "github.com/cosmos/cosmos-sdk/x/ibc/testing/mock"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	clienttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	commitmenttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/core/23-commitment/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/exported"
+	ibctmtypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	localhosttypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/09-localhost/types"
+	ibctesting "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing"
+	ibctestingmock "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing/mock"
+	upgradetypes "github.com/MonOsmosis/cosmos-sdk/x/upgrade/types"
 )
 
 func (suite *KeeperTestSuite) TestCreateClient() {

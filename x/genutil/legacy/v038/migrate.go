@@ -1,20 +1,20 @@
 package v038
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	v036auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v036"
-	v038auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v038"
-	v036distr "github.com/cosmos/cosmos-sdk/x/distribution/legacy/v036"
-	v038distr "github.com/cosmos/cosmos-sdk/x/distribution/legacy/v038"
-	v036genaccounts "github.com/cosmos/cosmos-sdk/x/genaccounts/legacy/v036"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/legacy/v036"
-	v036params "github.com/cosmos/cosmos-sdk/x/params/legacy/v036"
-	v036staking "github.com/cosmos/cosmos-sdk/x/staking/legacy/v036"
-	v038staking "github.com/cosmos/cosmos-sdk/x/staking/legacy/v038"
-	v038upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/legacy/v038"
+	"github.com/MonOsmosis/cosmos-sdk/client"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	cryptocodec "github.com/MonOsmosis/cosmos-sdk/crypto/codec"
+	v036auth "github.com/MonOsmosis/cosmos-sdk/x/auth/legacy/v036"
+	v038auth "github.com/MonOsmosis/cosmos-sdk/x/auth/legacy/v038"
+	v036distr "github.com/MonOsmosis/cosmos-sdk/x/distribution/legacy/v036"
+	v038distr "github.com/MonOsmosis/cosmos-sdk/x/distribution/legacy/v038"
+	v036genaccounts "github.com/MonOsmosis/cosmos-sdk/x/genaccounts/legacy/v036"
+	"github.com/MonOsmosis/cosmos-sdk/x/genutil/types"
+	v036gov "github.com/MonOsmosis/cosmos-sdk/x/gov/legacy/v036"
+	v036params "github.com/MonOsmosis/cosmos-sdk/x/params/legacy/v036"
+	v036staking "github.com/MonOsmosis/cosmos-sdk/x/staking/legacy/v036"
+	v038staking "github.com/MonOsmosis/cosmos-sdk/x/staking/legacy/v038"
+	v038upgrade "github.com/MonOsmosis/cosmos-sdk/x/upgrade/legacy/v038"
 )
 
 // Migrate migrates exported state from v0.36/v0.37 to a v0.38 genesis state.

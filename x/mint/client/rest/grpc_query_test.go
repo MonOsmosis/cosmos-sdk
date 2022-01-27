@@ -1,3 +1,4 @@
+//go:build norace
 // +build norace
 
 package rest_test
@@ -6,15 +7,15 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
+	"github.com/MonOsmosis/cosmos-sdk/testutil"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	grpctypes "github.com/MonOsmosis/cosmos-sdk/types/grpc"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/MonOsmosis/cosmos-sdk/testutil/network"
+	minttypes "github.com/MonOsmosis/cosmos-sdk/x/mint/types"
 )
 
 type IntegrationTestSuite struct {

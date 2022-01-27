@@ -17,14 +17,14 @@ import (
 	"github.com/tendermint/crypto/bcrypt"
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/ledger"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/MonOsmosis/cosmos-sdk/client/input"
+	"github.com/MonOsmosis/cosmos-sdk/codec/legacy"
+	"github.com/MonOsmosis/cosmos-sdk/crypto"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/hd"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/ledger"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/types"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	sdkerrors "github.com/MonOsmosis/cosmos-sdk/types/errors"
 )
 
 // Backend options for Keyring

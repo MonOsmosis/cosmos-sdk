@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/MonOsmosis/cosmos-sdk/simapp"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	banktypes "github.com/MonOsmosis/cosmos-sdk/x/bank/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/keeper"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/teststaking"
+	"github.com/MonOsmosis/cosmos-sdk/x/staking/types"
 )
 
 // bootstrapSlashTest creates 3 validators and bootstrap the app.
@@ -332,7 +332,7 @@ func TestSlashWithUnbondingDelegation(t *testing.T) {
 	// slash validator again
 	// all originally bonded stake has been slashed, so this will have no effect
 	// on the unbonding delegation, but it will slash stake bonded since the infraction
-	// this may not be the desirable behaviour, ref https://github.com/cosmos/cosmos-sdk/issues/1440
+	// this may not be the desirable behaviour, ref https://github.com/MonOsmosis/cosmos-sdk/issues/1440
 	ctx = ctx.WithBlockHeight(13)
 	app.StakingKeeper.Slash(ctx, consAddr, 9, 10, fraction)
 
@@ -358,7 +358,7 @@ func TestSlashWithUnbondingDelegation(t *testing.T) {
 	// slash validator again
 	// all originally bonded stake has been slashed, so this will have no effect
 	// on the unbonding delegation, but it will slash stake bonded since the infraction
-	// this may not be the desirable behaviour, ref https://github.com/cosmos/cosmos-sdk/issues/1440
+	// this may not be the desirable behaviour, ref https://github.com/MonOsmosis/cosmos-sdk/issues/1440
 	ctx = ctx.WithBlockHeight(13)
 	app.StakingKeeper.Slash(ctx, consAddr, 9, 10, fraction)
 

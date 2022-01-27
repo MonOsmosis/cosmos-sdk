@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/MonOsmosis/cosmos-sdk/simapp"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
+	authtypes "github.com/MonOsmosis/cosmos-sdk/x/auth/types"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto"

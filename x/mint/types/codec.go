@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	cryptocodec "github.com/MonOsmosis/cosmos-sdk/crypto/codec"
 )
 
 var (

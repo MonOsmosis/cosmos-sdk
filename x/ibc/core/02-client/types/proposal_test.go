@@ -1,12 +1,12 @@
 package types_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
-	ibctmtypes "github.com/cosmos/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/cosmos-sdk/x/ibc/testing"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	codectypes "github.com/MonOsmosis/cosmos-sdk/codec/types"
+	govtypes "github.com/MonOsmosis/cosmos-sdk/x/gov/types"
+	"github.com/MonOsmosis/cosmos-sdk/x/ibc/core/02-client/types"
+	ibctmtypes "github.com/MonOsmosis/cosmos-sdk/x/ibc/light-clients/07-tendermint/types"
+	ibctesting "github.com/MonOsmosis/cosmos-sdk/x/ibc/testing"
 )
 
 func (suite *TypesTestSuite) TestNewUpdateClientProposal() {

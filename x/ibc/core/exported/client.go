@@ -4,8 +4,8 @@ import (
 	ics23 "github.com/confio/ics23/go"
 	proto "github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	sdk "github.com/MonOsmosis/cosmos-sdk/types"
 )
 
 const (

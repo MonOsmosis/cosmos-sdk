@@ -5,16 +5,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
+	"github.com/MonOsmosis/cosmos-sdk/codec"
+	"github.com/MonOsmosis/cosmos-sdk/codec/legacy"
+	"github.com/MonOsmosis/cosmos-sdk/codec/types"
+	cryptocodec "github.com/MonOsmosis/cosmos-sdk/crypto/codec"
+	kmultisig "github.com/MonOsmosis/cosmos-sdk/crypto/keys/multisig"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/MonOsmosis/cosmos-sdk/crypto/types"
+	"github.com/MonOsmosis/cosmos-sdk/crypto/types/multisig"
+	"github.com/MonOsmosis/cosmos-sdk/types/tx/signing"
+	"github.com/MonOsmosis/cosmos-sdk/x/auth/legacy/legacytx"
 )
 
 func TestAddress(t *testing.T) {
@@ -343,7 +343,7 @@ func TestAminoUnmarshalJSON(t *testing.T) {
 	// v0.39, hence the `threshold` field as a string.
 	// We are testing that when unmarshaling this JSON into a LegacyAminoPubKey
 	// with amino, there's no error.
-	// ref: https://github.com/cosmos/cosmos-sdk/issues/8776
+	// ref: https://github.com/MonOsmosis/cosmos-sdk/issues/8776
 	pkJSON := `{
 	"type": "tendermint/PubKeyMultisigThreshold",
 	"value": {
